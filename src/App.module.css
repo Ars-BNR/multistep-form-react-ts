@@ -1,0 +1,23 @@
+.form {
+    position: relative;
+    background: white;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    font-family: Arial;
+    max-width: 498px;
+}
+
+.form__count {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+.form__btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
